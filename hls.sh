@@ -37,7 +37,6 @@
 #
 ######################################################################################
 
-set -x
 
 # Basic config
 OUTPUT_DIRECTORY=${OUTPUT_DIRECTORY:-'./output'}

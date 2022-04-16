@@ -46,5 +46,3 @@ out_put="$file_folder/$file_name"
 # Resize the video to 360p ts chunks.
 ffmpeg -i "$1" -c copy -map 0 -f segment -segment_time 10 -reset_timestamps 1 "$out_put%03d.ts"
 
-# Resize the video to 720p ts chunks.
-
